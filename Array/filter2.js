@@ -1,7 +1,7 @@
 Array.prototype.filter2 = function(callback){
     const novoArray = []
     for(let i = 0; i < this.length; i++){
-        if(callback(this[i], i, Array)){
+        if(callback(this[i], i, this)){
             novoArray.push(this[i])
         }
     }

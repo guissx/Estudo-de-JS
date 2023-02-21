@@ -24,7 +24,7 @@ aprovados.sort()// ORDENA O ARRAY, ORGANIZA
 console.log(aprovados)
 
 //EXCLUIR
-delete aprovados[1]/
+delete aprovados[1]
 console.log(aprovados[1])
 console.log(aprovados[2])
 
